@@ -1,8 +1,8 @@
-# 🚀 Bienvenidos a la charla 1 de POO por DH
+# 🚀 Bienvenidos a la charla 2 de Patrones de diseño por DH
 
 ### Descripcion
 
-En este repositorio te encontraras todo el contenido sobre la charla 1 de programacion orientada a objetos.
+En este repositorio te encontraras todo el contenido sobre la charla 2 de patrones de diseño
 
 ### Requerimientos
 
@@ -12,8 +12,9 @@ Debemos tener instalado NodeJS. Para instalar, podes visitar [NodeJS](https://no
 
 Para comenzar, debemos descargar el proyecto. Te facilitamos el siguiente comando:
 
-`git clone https://github.com/dh-graduados/capitulo1-POO.git`
-`cd capitulo1-POO`
+`git clone https://github.com/dh-graduados/capitulo2-Patrones.git`
+
+`cd capitulo2-Patrones`
 
 Luego, debemos instalar las dependencias. Para lograrlo, debemos correr el siguiente comando:
 
@@ -23,22 +24,25 @@ Luego, debemos instalar las dependencias. Para lograrlo, debemos correr el sigui
 
 Para correr cada uno de los ejemplos, creamos los siguientes scripts.
 
-- Programacion orientada a objetos
-  `npm run start:POO`
+- Patron Singleton
+  `npm run start:SINGLETON`
 
-- Encapsulamiento
-  `npm run start:ENCAPSULAMIENTO`
+- Patron Factory
+  `npm run start:FACTORY`
 
-- Herencia
-  `npm run start:HERENCIA`
+- Patron Adapter
+  `npm run start:ADAPTER`
 
-- Polimorfismo
-  `npm run start:POLIMORFISMO`
+- Patron Facade
+  `npm run start:FACADE`
 
-- Clases Abstractas
-  `npm run start:ABSTRACTAS`
+- Patron Proxy
+  `npm run start:PROXY`
 
-- Interfaces
-  `npm run start:INTERFACES`
+- Patron Strategy
+  `npm run start:STRATEGY`
+
+- Patron Observer
+  `npm run start:OBSERVER`
 
 **Muchas gracias!**
