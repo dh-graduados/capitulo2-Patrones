@@ -1,0 +1,32 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:SINGLETON": "ts-node src/01-Singleton/index.ts",
+    "start:FACTORY": "ts-node  src/02-Factory/index.ts",
+    "start:ADAPTER": "ts-node  src/03-Adapter/index.ts",
+    "start:FACADE": "ts-node  src/04-Facade/index.ts",
+    "start:PROXY": "ts-node  src/05-Proxy/index.ts",
+    "start:STRATEGY": "ts-node  src/06-Strategy/index.ts",
+    "start:OBSERVER": "ts-node  src/07-Observer/index.ts",
+    "start:ALL": "npm run start:SINGLETON && npm run start:FACTORY && npm run start:ADAPTER && npm run start:FACADE && npm run start:PROXY && npm run start:STRATEGY && npm run start:OBSERVER ",
+    "lint": "eslint ./src --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "5.42.0",
+    "@typescript-eslint/parser": "5.42.0",
+    "eslint": "8.26.0",
+    "eslint-config-standard": "17.0.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-n": "15.4.0",
+    "eslint-plugin-promise": "6.1.1",
+    "ts-node": "10.9.1",
+    "tsc": "2.0.4",
+    "typescript": "4.8.4"
+  }
+}
